@@ -1,1 +1,40 @@
-{     "devDependencies": {         "less": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-less",     "homepage": "https://github.com/npmtest/node-npmtest-less",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-less.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "#### test coverage for  [less (v2.7.2)](http://lesscss.org)  [![npm package](https://img.shields.io/npm/v/npmtest-less.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-less) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-less.svg)](https://travis-ci.org/npmtest/node-npmtest-less)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "less": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-less",
+    "keywords": [
+        "coverage",
+        "test",
+        "less"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_less.js",
+    "name": "npmtest-less",
+    "nameAlias": "npmtest_less",
+    "nameOriginal": "npmtest-less",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-less.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "npm install \"kaizhu256/node-utility2#alpha\" && utility2 shDeployHeroku",
+        "postinstall": "[ ! -f npm_scripts.sh ] || ./npm_scripts.sh postinstall",
+        "start": "PORT=${PORT:-8080} utility2 start test.js",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.3"
+}
