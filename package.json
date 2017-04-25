@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [less (v2.7.2)](http://lesscss.org)  [![npm package](https://img.shields.io/npm/v/npmtest-less.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-less) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-less.svg)](https://travis-ci.org/npmtest/node-npmtest-less)",
+    "description": "#### basic test coverage for  [less (v2.7.2)](http://lesscss.org)  [![npm package](https://img.shields.io/npm/v/npmtest-less.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-less) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-less.svg)](https://travis-ci.org/npmtest/node-npmtest-less)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "less": "*",

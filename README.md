@@ -1,6 +1,6 @@
 # npmtest-less
 
-#### test coverage for  [less (v2.7.2)](http://lesscss.org)  [![npm package](https://img.shields.io/npm/v/npmtest-less.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-less) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-less.svg)](https://travis-ci.org/npmtest/node-npmtest-less)
+#### basic test coverage for  [less (v2.7.2)](http://lesscss.org)  [![npm package](https://img.shields.io/npm/v/npmtest-less.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-less) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-less.svg)](https://travis-ci.org/npmtest/node-npmtest-less)
 
 #### Leaner CSS
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-less/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-less/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-less/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-less/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-less/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-less/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-less/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-less/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-less/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-less/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-less/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-less/build/coverage.html/index.html)
 
